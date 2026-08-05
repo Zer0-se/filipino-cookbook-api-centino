@@ -2,13 +2,17 @@
 # Description
 The Filipino Cookbook API offers secure, token-protected access to a database of Filipino recipes, ingredients, food categories, and regional origins. It processes client requests and returns lightweight JSON responses for simple front-end integration.
 # Main Features
--  Retrieve Filipino foods
--  Retrieve food categories
--  Retrieve food origins
--  Retrieve ingredients
+-  Get all Filipino foods
+-  Get all food categories
+-  Get food by origins
+-  Get food ingredients
 -  View the details of a specific food
 -  Authenticate requests using a token
 -  Return information in JSON format
+-  Add food
+-  Returns a single randomly selected food item with its details and ingredients list.
+-  Returns each category along with total_foods counting how many dishes belong to it.
+-  Allows searching for dishes originating from a specific province or region
 # Technologies Used 
 - PHP
 - Slim Framework
@@ -53,6 +57,9 @@ The Filipino Cookbook API offers secure, token-protected access to a database of
 | `/api/categories` | **GET** | Retrieves all food categories. | `Authorization: Bearer YOUR_ACCESS_TOKEN` <br> `Accept: application/json` |
 | `/api/ingredients` | **GET** | Retrieves a list of all available ingredients. | `Authorization: Bearer YOUR_ACCESS_TOKEN` <br> `Accept: application/json` |
 | `/api/foods` | **POST** | Adds a new food item to the database. | `Authorization: Bearer YOUR_ACCESS_TOKEN` <br> `Content-Type: application/json` |
+| `/api/categories/count` |**GET**| Return Categories with the total count of food are within each category | `Authorization: Bearer YOUR_ACCESS_TOKEN` <br> `Content-Type: application/json` |
+| `/api/foods/origin/{origin_name} |**GET**| Search Foods by their origin region | `Authorization: Bearer YOUR_ACCESS_TOKEN` <br> `Content-Type: application/json` |
+
 
 # Sample Responses
 1. Sample Request GET http://localhost:8000/api/categories
