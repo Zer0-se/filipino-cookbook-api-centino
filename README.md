@@ -111,3 +111,32 @@ The Filipino Cookbook API offers secure, token-protected access to a database of
 | 404 | Requested resource was not found |
 | 429 | Too many requests |
 | 500 | Internal server error |
+
+# Testing Evidence
+
+### 1. Successful Endpoint Request (200 OK)
+![Successful Endpoint Request](Screenshots/categories.png)
+*Successful GET request returning JSON data with a 200 OK status code.*
+### 2. Missing or Invalid Token Request (401 Unauthorized)
+![Missing or Invalid Token](Screenshots/Error.png)
+*401 Unauthorized error returned when attempting to access the endpoint without a valid Bearer token.*
+
+---
+
+### 3. Resource Not Found Response (404 Not Found)
+![Resource Not Found](Screenshots/food-not-found.png)
+*Caption: 404 Not Found error returned when requesting an invalid endpoint or non-existent resource ID.*
+
+## Developer Information
+
+**Student Name:** Centino, John Axell M. 
+
+**Course & Section:** System Integration and Architecture - BSIT - 3A
+
+**GitHub Username:** Zer0-se
+
+**Repository Link:** https://github.com/Zer0-se/filipino-cookbook-api
+
+**Date Completed:** August 7, 2026  
+
+---
