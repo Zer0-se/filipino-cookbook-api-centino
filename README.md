@@ -124,12 +124,12 @@ The Filipino Cookbook API offers secure, token-protected access to a database of
 
 ### 1. Successful Endpoint Request (200 OK)
 ![Successful Endpoint Request](Screenshots/categories.png)
+
 *Successful GET request returning JSON data with a 200 OK status code.*
+
 ### 2. Missing or Invalid Token Request (401 Unauthorized)
 ![Missing or Invalid Token](Screenshots/Error.png)
 *401 Unauthorized error returned when attempting to access the endpoint without a valid Bearer token.*
-
----
 
 ### 3. Resource Not Found Response (404 Not Found)
 ![Resource Not Found](Screenshots/food-not-found.png)
