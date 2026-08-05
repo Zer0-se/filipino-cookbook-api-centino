@@ -59,6 +59,7 @@ The Filipino Cookbook API offers secure, token-protected access to a database of
 | `/api/foods` | **POST** | Adds a new food item to the database. | `Authorization: Bearer YOUR_ACCESS_TOKEN` <br> `Content-Type: application/json` |
 | `/api/categories/count` |**GET**| Return Categories with the total count of food are within each category | `Authorization: Bearer YOUR_ACCESS_TOKEN` <br> `Content-Type: application/json` |
 | `/api/foods/origin/{origin_name}` |**GET**| Search Foods by their origin region | `Authorization: Bearer YOUR_ACCESS_TOKEN` <br> `Content-Type: application/json` |
+| `/api/foods/random` |**GET**| Retrieves a random food with all of it's details | `Authorization: Bearer YOUR_ACCESS_TOKEN` <br> `Content-Type: application/json` |
 
 
 # Sample Responses
