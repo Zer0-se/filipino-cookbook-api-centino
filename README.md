@@ -141,7 +141,7 @@ The Filipino Cookbook API offers secure, token-protected access to a database of
 
 **Student Name:** Centino, John Axell M. 
 
-**Course & Section:** System Integration and Architecture - BSIT - 3A
+**Course & Section:** System Integration and Architecture - BSIT - 4A
 
 **GitHub Username:** Zer0-se
 
