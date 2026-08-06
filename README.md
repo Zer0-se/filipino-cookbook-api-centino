@@ -101,7 +101,7 @@ The Filipino Cookbook API offers secure, token-protected access to a database of
   ]
 }
 ```
- 404 Error response
+ 401 Error response
 ```json {
 {
   "status": "error",
